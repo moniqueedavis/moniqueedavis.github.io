@@ -7,13 +7,28 @@ body {
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
-.column {
+/* Flexbox container */
+.row {
     display: flex;
+    justify-content: space-between; /* Adjusts spacing between the columns */
+    align-items: flex-start; /* Aligns items to the top */
+}
+
+/* Individual columns */
+.column {
+    display: flexflex: 1; /* Allows columns to take up equal space */
     flex-direction: column;
     padding-left: 10%;
     padding-right: 10%;
     max-width: 100rem;
     padding-bottom: 10%;
+    margin: 10px; /* Adds some space between the columns */
+}
+
+/* Optional: Adjust image size */
+.column img {
+    max-width: 100%; /* Ensures image scales within its column */
+    height: auto; /* Maintains aspect ratio */
 }
 
 
