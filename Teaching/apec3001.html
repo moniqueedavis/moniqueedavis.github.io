@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
 
+
+<!--The head contains metadata about our page and it's the place where we can load css files (for -->
+<!--styling) and javascript files.-->
+<head>
+
+    <meta name="author" content="Monique E. Davis">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Load JQuery and Bootstrap. They are javascript library that handle the layouting for us.-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- The nav bar remains the same for every page, so by defining it in only one file, we only
+     need to edit it in one place when we make changes to it. -->
+    <script> $(function(){$("#header").load("header.html");});</script>
+
+    <!-- Import the css file, which defines how our website looks -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!--Set the title for the page-->
+    <title>Teaching</title>
+
+</head>
+
+
+<!--We define the elements that we actually want to display in the body element-->
+<body>
+
+    <!--This element is a placeholder for the header with the navbar, which we load above-->
+    <div id="header"></div>
+
+    <div class="column">
+
+        <h1>Teaching</h1>
+        <h2>
+            Teaching Assistant*
+        </h2>
+        <h3>
+            Spring 2021
+        </h3>
+        <p>
+            <a href="https://www.moniqueedavis.com/monique-e-davis-teaching/monique-e-davis-spring-2021-apec-3001">APEC 3001</a>: 
+            Applied Microeconomics – Consumers, Producers, and Markets (Undergraduate Course)
+        </p>
+        <h3>
+            Fall 2020
+        </h3>
+        <p>
+            <a href="https://www.moniqueedavis.com/monique-e-davis-teaching/monique-e-davis-fall-2020-apec-8001">APEC 8001</a>: 
+            Applied Microeconomic Theory – Consumer Choice and Consumer Demand (Graduate Ph.D. Course)
+        </p>
+        <p>
+            <a href="https://www.moniqueedavis.com/monique-e-davis-teaching/monique-e-davis-fall-2020-apec-8002">APEC 8002</a>: 
+            Applied Microeconomic Theory – Production and Choice Under Uncertainty (Graduate Ph.D. Course)
+        </p>
+        <h6>
+            *Evidence of teaching excellence available upon request
+        </h6>
+    </div>
+
+</body>
