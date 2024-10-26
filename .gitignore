@@ -1,1 +1,8 @@
-.idea/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/public/
+/resources/
+.DS_Store
+Thumbs.db
